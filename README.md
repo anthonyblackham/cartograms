@@ -1,18 +1,10 @@
 # cartograms
-This repository provides some sample data for generating cartograms of the United States
 
-![cartogram examples](docs/cartograms.jpg)
+This repository provides some sample geojson data for generating cartograms of the United States
 
 Sample Data Layers:
 
-- ElectoralWeightsTable
-- USA_Continuous_Cartogram
-- USA_Grid_Cartogram
-- USA_Grid_Cartogram_Centroid
-- USA_Grid_Cartogram_Centroid_Electoral_Joined
-- USA_Hex_Cartogram
-- USA_Hex_Cartogram_Centroid
-- USA_Hex_Cartogram_Centroid_Electoral_Joined
-- USA_Original
-- USA_Original_Centroid
-- USA_Original_Centroid_Electoral_Joined 
+- usa_albers.geojson : US with Alaska and Hawaii scaled in view
+- usa_grid_cartogram.geojson : Grid Cartogram
+- usa_hex_cartogram.geojson : Hex Cartogram
+- usa_original.geojson : standard non-contiguous United States
